@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cfc52f6d88228424f93f92a9e74965af, type: 3}
+  m_Name: MaterialSample_C45k
+  m_EditorClassIdentifier: 
+  materialName: X5CrNi 18 10
+  impactWorkByTemp:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -200
+      value: 5
+      inSlope: 0.0006364338
+      outSlope: 0.0006364338
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.38128567
+    - serializedVersion: 3
+      time: 0
+      value: 7.5
+      inSlope: 0.038554315
+      outSlope: 0.038554315
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.25401124
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 23
+      value: 10
+      inSlope: 0.17056711
+      outSlope: 0.17056711
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.29498106
+      outWeight: 0.10873381
+    - serializedVersion: 3
+      time: 200
+      value: 28
+      inSlope: 0.03414832
+      outSlope: 0.03414832
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.18983941
+    - serializedVersion: 3
+      time: 400
+      value: 30
+      inSlope: -0.00000002161661
+      outSlope: -0.00000002161661
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.23404594
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  brittleness: 0
+  expansionRate: 0

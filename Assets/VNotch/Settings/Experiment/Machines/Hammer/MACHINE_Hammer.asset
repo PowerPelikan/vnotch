@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b990fe4d6b627544581b6b83df66df31, type: 3}
+  m_Name: MACHINE_Hammer
+  m_EditorClassIdentifier: 
+  parts:
+  - {fileID: 11400000, guid: c0553b4083aa5674c8a4f80c7b6a8ee4, type: 2}
+  - {fileID: 11400000, guid: 21acac422f47a4f4da9b3fcb4c49b7da, type: 2}
+  - {fileID: 11400000, guid: 908f0a838a824fd4c9ed76cfd3225856, type: 2}
+  - {fileID: 11400000, guid: 0c97f958d9494c442954788f84b09752, type: 2}
+  - {fileID: 11400000, guid: e426d5c087440574887f028b6fe9fa5a, type: 2}

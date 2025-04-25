@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - CinemachineTarget
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - InteractionPoint
+  - Water
+  - UI
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - Equipment
+  - InteractionHighlight
+  - TutorialHighlight
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: ClipboardUI
+    uniqueID: 3578989727
+    locked: 0

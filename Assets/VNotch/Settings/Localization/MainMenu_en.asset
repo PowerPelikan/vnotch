@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MainMenu_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3db33bf080b0bda448a8d1c4b1c8a1f7, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 10738053120
+    m_Localized: 'The Charpy impact test is a widely employed method for assessing
+      the toughness or impact work of materials. It measures the ability of a material
+      to absorb energy and resist fracture when subjected to a sudden impact load.
+
+      This
+      application simulates this experiment, modelling the steps required to operate
+      a impact test machine - as well as a method to note down results.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2888118677504
+    m_Localized: 'Before you get started, it is recommended you take a look at the
+      theoretical foundations of the experiment found here:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9855344160768
+    m_Localized: Learn the basic functions and controls of the simulator.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9959572615168
+    m_Localized: Learn how to work with the impact test machine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9997468151808
+    m_Localized: Learn the steps of the experiment and how to document its results.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10014039846912
+    m_Localized: Perform the experiment in its entirety on your own.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Tutorial0 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Tutorial0
+  m_TableCollectionNameGuidString: bb279b56b34df9142a282acf29fa2826
+  m_Entries:
+  - m_Id: 9311989760
+    m_Key: TUT_Intro_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80954896384
+    m_Key: TUT_Intro_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10966486593536
+    m_Key: TUT_Mouse_Prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23571565490176
+    m_Key: TUT_Mouse_Comp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23592952246272
+    m_Key: TUT_Move_Prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23632819105792
+    m_Key: TUT_Move_Comp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23837471780864
+    m_Key: TUT_Interact_Prompt_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23891687354368
+    m_Key: TUT_Interact_Prompt_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32706453417984
+    m_Key: TUT_Interact_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32769435086848
+    m_Key: TUT_EquipmentSlots_Prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32895385841664
+    m_Key: TUT_EquipmentSlots_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33034720620544
+    m_Key: TUT_PickUp_Prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33428104392704
+    m_Key: TUT_PickUp_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100415807533056
+    m_Key: TUT_Focus_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100543591198720
+    m_Key: TUT_Temper_Prompt_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100570543796224
+    m_Key: TUT_Temper_Prompt_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100610532290560
+    m_Key: TUT_Temper_Prompt_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101271516852224
+    m_Key: TUT_Completion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102883274633216
+    m_Key: TUT_Focus_Prompt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167056092278784
+    m_Key: TUT_Unfinished_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168526858530816
+    m_Key: TUT_Unfinished_2
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 409717808788144130
+  references:
+    version: 2
+    RefIds:
+    - rid: 409717808788144130
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1686234940786

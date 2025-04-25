@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AM_Hammer_Hatch
+  m_Mask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: DEF_root
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_crank
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_crank/DEF_crank_axis
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_crank/DEF_crank_axis/DEF_crank_handle
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_inside
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_inside/DEF_centering_lever
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_inside/DEF_hatch
+    m_Weight: 1
+  - m_Path: DEF_root/PNT_inside/DEF_Sample
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_Dial_01
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_Dial_02
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_Dial_knob
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_hammer_arm
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_tugger_arm
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_tugger_arm/DEF_tugger_arm_04
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_tugger_arm/DEF_tugger_arm_shim
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_tugger_arm/DEF_tugger_lock
+    m_Weight: 0
+  - m_Path: DEF_root/PNT_main_axis/DEF_tugger_arm/DEF_tugger_lock/DEF_tugger_knob
+    m_Weight: 0
+  - m_Path: E_MESH
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Body_Frame
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_BodyBase
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Brake_Lever
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_BreakDisc
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Circle.002
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Crank
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Crank_Sleeve
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Dial_Base
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Dial_Mechanincs
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Dial_Pane
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Gear_Lever
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Gear_Main
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Hammer
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Hatch
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Hull
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Internal_Block
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Internal_Lever
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Internal_LeverBase
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Internal_Screws_01
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Internal_Screws_02
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_MainAxis
+    m_Weight: 0
+  - m_Path: E_MESH/MSH_Spacer_Disc
+    m_Weight: 0

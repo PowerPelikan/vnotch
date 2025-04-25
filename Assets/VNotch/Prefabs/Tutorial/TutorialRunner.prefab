@@ -1,0 +1,495 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3638120376598254584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2680224671098845804}
+  - component: {fileID: 1203367689887961431}
+  m_Layer: 0
+  m_Name: FocusWait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2680224671098845804
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3638120376598254584}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9145819909407554777}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203367689887961431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3638120376598254584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d862b7ad03894488d60067a133effb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredAction: {fileID: -8448720004092637450, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  linkedObjective: {fileID: 11400000, guid: 2a44397d38cc1b34bbd953d6bed1b070, type: 2}
+  performThreshold: 2
+  currentPerforms: 0
+  CanCompleteMultipleTimes: 1
+  wasCompleted: 0
+--- !u!1 &4023160486056101341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4351313101080788459}
+  - component: {fileID: 7606422572214145993}
+  m_Layer: 0
+  m_Name: MoveWait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4351313101080788459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4023160486056101341}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9145819909407554777}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7606422572214145993
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4023160486056101341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d862b7ad03894488d60067a133effb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredAction: {fileID: -3552364970006637457, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  linkedObjective: {fileID: 11400000, guid: 8c96567e3ddaa10429a5c72ff60c00e1, type: 2}
+  performThreshold: 8
+  currentPerforms: 0
+  CanCompleteMultipleTimes: 1
+  wasCompleted: 0
+--- !u!1 &5058401379505527179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9145819909407554777}
+  - component: {fileID: 8510211899894555319}
+  - component: {fileID: 4304445103304411725}
+  m_Layer: 0
+  m_Name: TutorialRunner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9145819909407554777
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5058401379505527179}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4023235335043461278}
+  - {fileID: 4351313101080788459}
+  - {fileID: 3841051493459018169}
+  - {fileID: 2680224671098845804}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8510211899894555319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5058401379505527179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e5b8397446264ab113c5e17f1cfef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultMessage: {fileID: 0}
+  messageSystemObj: {fileID: 11400000, guid: e76f45961bf000f4faf630982a931cfc, type: 2}
+--- !u!114 &4304445103304411725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5058401379505527179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 868ccc5aeede44e4e8afbbb34415efb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTutorialStart:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6179784332304567790}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4023160486056101341}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 3638120376598254584}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 8398987811555475558}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  steps:
+  - name: Introduction
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: b56b139a179499041be93406700c359d, type: 2}
+    - {fileID: 11400000, guid: e9ab274ce7b4bc74d91c6d5ce1b98b04, type: 2}
+    objectivesToNext: []
+    completionMessages: []
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Mouse Look
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: 6f35a1e9ef69ecd46bddafe848e9ff6b, type: 2}
+    objectivesToNext:
+    - {fileID: 11400000, guid: 8b908d18e13803d499fee7300e8f9c9c, type: 2}
+    completionMessages:
+    - {fileID: 11400000, guid: 7e4562f0f5c9f38459c903fb346e2e4b, type: 2}
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 6179784332304567790}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Move
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: acb974f8248f47b46a5a62f76e77268b, type: 2}
+    objectivesToNext:
+    - {fileID: 11400000, guid: 8c96567e3ddaa10429a5c72ff60c00e1, type: 2}
+    completionMessages:
+    - {fileID: 11400000, guid: b014af97ced999c4b9410662635ccc88, type: 2}
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4023160486056101341}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Interact
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: a8923367284f97e4895c6f84cd1c3171, type: 2}
+    - {fileID: 11400000, guid: 99c2cbaaba2d4fe4dabb73b787dfbfcd, type: 2}
+    objectivesToNext:
+    - {fileID: 11400000, guid: 320a4c0d22812284fb8e98780be18c17, type: 2}
+    - {fileID: 11400000, guid: 699c9132925a8b8499794a28280a0d3e, type: 2}
+    completionMessages:
+    - {fileID: 11400000, guid: d41ce356a771d3044b43cfab7c910816, type: 2}
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: EquipmentSlots
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: 8fbbbea9e932d184db7eacb33ed4df84, type: 2}
+    objectivesToNext:
+    - {fileID: 11400000, guid: 156fcb50f3e042143a762c2df41aa137, type: 2}
+    completionMessages:
+    - {fileID: 11400000, guid: 648b1dc0273714940aec1e263cf9c947, type: 2}
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8398987811555475558}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: PickUpSample
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: bd3eccf01d1f8bd48b5e11051168d43c, type: 2}
+    objectivesToNext: []
+    completionMessages:
+    - {fileID: 11400000, guid: d06b54492251ba440b65932c406aa1ab, type: 2}
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: FocusView
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: b6e52ecc256eab2499000d162e774046, type: 2}
+    objectivesToNext:
+    - {fileID: 11400000, guid: 2a44397d38cc1b34bbd953d6bed1b070, type: 2}
+    completionMessages:
+    - {fileID: 11400000, guid: 9e06dd188ab08c04f8a69437c935965a, type: 2}
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3638120376598254584}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  - name: Finish
+    delayBetweenMessages: 4
+    messages:
+    - {fileID: 11400000, guid: 1ebb2690af796a6478dea5ee9ad4f1c0, type: 2}
+    - {fileID: 11400000, guid: aae1b178a17ebef4d8088189afbed146, type: 2}
+    objectivesToNext: []
+    completionMessages: []
+    onStepReached:
+      m_PersistentCalls:
+        m_Calls: []
+    OnStepCompleted:
+      m_PersistentCalls:
+        m_Calls: []
+  OnTutorialCompleted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8510211899894555319}
+        m_TargetAssemblyTypeName: MEEP.OnScreenMessages.MessagePusher, MEEP
+        m_MethodName: ClearMessageDisplay
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!1 &6179784332304567790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4023235335043461278}
+  - component: {fileID: 1611262440697284294}
+  m_Layer: 0
+  m_Name: MouseWait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4023235335043461278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179784332304567790}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9145819909407554777}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611262440697284294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6179784332304567790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d862b7ad03894488d60067a133effb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredAction: {fileID: -3787169064211337688, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  linkedObjective: {fileID: 11400000, guid: 8b908d18e13803d499fee7300e8f9c9c, type: 2}
+  performThreshold: 100
+  currentPerforms: 0
+  CanCompleteMultipleTimes: 1
+  wasCompleted: 0
+--- !u!1 &8398987811555475558
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3841051493459018169}
+  - component: {fileID: 1318394847077557879}
+  m_Layer: 0
+  m_Name: ScrollWait
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &3841051493459018169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8398987811555475558}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 9145819909407554777}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1318394847077557879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8398987811555475558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72d862b7ad03894488d60067a133effb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredAction: {fileID: 6820545787028438852, guid: 4419d82f33d36e848b3ed5af4c8da37e,
+    type: 3}
+  linkedObjective: {fileID: 11400000, guid: 156fcb50f3e042143a762c2df41aa137, type: 2}
+  performThreshold: 2
+  currentPerforms: 0
+  CanCompleteMultipleTimes: 1
+  wasCompleted: 0
