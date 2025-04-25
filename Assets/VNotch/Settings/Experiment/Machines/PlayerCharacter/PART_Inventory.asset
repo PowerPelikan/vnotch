@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6515383738883960775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0882ef1e2db9e94fb541592a9bd62a3, type: 3}
+  m_Name: Empty
+  m_EditorClassIdentifier: 
+  stateName: Empty
+  partsBlockedByThis: []
+  transitions:
+  - finishMethod: 2
+    animationClipName: Pick Up
+    next: {fileID: 5307204571998996515}
+    partsBlockedByThis: []
+    OnEnter:
+      m_PersistentCalls:
+        m_Calls: []
+    OnExit:
+      m_PersistentCalls:
+        m_Calls: []
+  OnStateEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateExit:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9d348d1b132a3d4aae76a408890cd8b, type: 3}
+  m_Name: PART_Inventory
+  m_EditorClassIdentifier: 
+  animatorLayerName: Inventory
+  states:
+  - {fileID: -6515383738883960775}
+  - {fileID: 5307204571998996515}
+--- !u!114 &5307204571998996515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0882ef1e2db9e94fb541592a9bd62a3, type: 3}
+  m_Name: Holding
+  m_EditorClassIdentifier: 
+  stateName: Holding
+  partsBlockedByThis: []
+  transitions: []
+  OnStateEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnStateExit:
+    m_PersistentCalls:
+      m_Calls: []

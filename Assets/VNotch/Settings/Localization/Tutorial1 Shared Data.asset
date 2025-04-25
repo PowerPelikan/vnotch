@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Tutorial1 Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: Tutorial1
+  m_TableCollectionNameGuidString: 60c866b63399fe746a99a26c2d8d857f
+  m_Entries:
+  - m_Id: 208545624064
+    m_Key: TUT_Intro_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396359933952
+    m_Key: TUT_Intro_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2506327961600
+    m_Key: TUT_Comp_CrankDown_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3594464636928
+    m_Key: TUT_Comp_CrankDown_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811914133504
+    m_Key: TUT_Comp_CrankDown_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5308311777280
+    m_Key: TUT_Comp_CrankAttach_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5738295046144
+    m_Key: TUT_Comp_CrankAttach_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352298484740096
+    m_Key: TUT_Comp_CrankUp_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352455070691328
+    m_Key: TUT_Comp_CrankUp_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352554496667648
+    m_Key: TUT_Comp_GetSample_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352827512303616
+    m_Key: TUT_Comp_GetSample_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352994613374976
+    m_Key: TUT_Comp_GetSample_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353347035574272
+    m_Key: TUT_Comp_Hatch_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353479030321152
+    m_Key: TUT_Comp_Hatch_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353625323450368
+    m_Key: TUT_Comp_Hatch_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353766868627456
+    m_Key: TUT_Comp_Hatch_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353907189067776
+    m_Key: TUT_Comp_Hatch_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353977120698368
+    m_Key: TUT_ResetDial_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354278150090752
+    m_Key: TUT_ResetDial_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354526171869184
+    m_Key: TUT_ResetDial_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354724780552192
+    m_Key: TUT_ResetDial_3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354760801234944
+    m_Key: TUT_ResetDial_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354965554573312
+    m_Key: TUT_Detach_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355241971789824
+    m_Key: TUT_Detach_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355380094414848
+    m_Key: TUT_Detach_Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355436952399872
+    m_Key: TUT_InspectResults_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355610651111424
+    m_Key: TUT_InspectResults_1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355731807776768
+    m_Key: TUT_InspectResults_2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356048150573056
+    m_Key: TUT_InspectResults_3
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 409718103684415489
+  references:
+    version: 2
+    RefIds:
+    - rid: 409718103684415489
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables,
+        asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1687355720552

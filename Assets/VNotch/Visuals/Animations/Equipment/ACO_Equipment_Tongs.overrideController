@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ACO_Equipment_Tongs
+  m_Controller: {fileID: 9100000, guid: d0181147c9699e94dacda21597a0e178, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: -7858199705399183456, guid: 66d16745848bb46469e1e475bfe50e56,
+      type: 3}
+    m_OverrideClip: {fileID: -7858199705399183456, guid: 66d16745848bb46469e1e475bfe50e56,
+      type: 3}
+  - m_OriginalClip: {fileID: 7074083303472366611, guid: 66d16745848bb46469e1e475bfe50e56,
+      type: 3}
+    m_OverrideClip: {fileID: 7074083303472366611, guid: 66d16745848bb46469e1e475bfe50e56,
+      type: 3}
+  - m_OriginalClip: {fileID: 6881743792803223252, guid: 66d16745848bb46469e1e475bfe50e56,
+      type: 3}
+    m_OverrideClip: {fileID: 6881743792803223252, guid: 66d16745848bb46469e1e475bfe50e56,
+      type: 3}

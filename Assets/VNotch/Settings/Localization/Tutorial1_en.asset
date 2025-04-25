@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial1_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 60c866b63399fe746a99a26c2d8d857f, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 208545624064
+    m_Localized: With the controls covered, let's take a look at the heart of this
+      experiment. The impact test machine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1396359933952
+    m_Localized: We will go over its basic components and how to use it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2506327961600
+    m_Localized: 'In order to use the hammer, we first need to pull up the swinging
+      part.
+
+      This is done with the crank, which controls a tugging arm.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3594464636928
+    m_Localized: Rotate the crank to bring the tugging arm into position
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3811914133504
+    m_Localized: Alright!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5308311777280
+    m_Localized: "Next, we need to attach the tugging arm such that it actually pulls
+      up the hammer. \nThis is done via this highlighted part. Attach it now"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5738295046144
+    m_Localized: Great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352298484740096
+    m_Localized: Now, we can pull up the tugging arm again, bringing the hammer into
+      a position from which we can drop it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352455070691328
+    m_Localized: Good job!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352554496667648
+    m_Localized: Now that the hammer is in position, let's look at how to insert
+      a sample.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352827512303616
+    m_Localized: There is a prepared sample for you to use on the table. Go pick
+      it up now!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 352994613374976
+    m_Localized: Alright!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353347035574272
+    m_Localized: To place this sample, we first need to open the hatch of the machine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353479030321152
+    m_Localized: Now, let's place the sample inside the machine.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353625323450368
+    m_Localized: Finally, we need to center the sample using this little lever
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353766868627456
+    m_Localized: Alright. The sample has been correctly inserted, so we can close
+      the hatch for now.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353907189067776
+    m_Localized: Okay!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353977120698368
+    m_Localized: Now, before you detach the hammer, sending it swinging, we need
+      to ensure we are getting proper measurements
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354278150090752
+    m_Localized: This is done by resetting the dial of the machine. Let's have a
+      closer look
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354526171869184
+    m_Localized: To reset the dial, we need to push in the little knob, letting us
+      push around the hand of the dial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354724780552192
+    m_Localized: Okay, we are finished here. Let's get back to the machine proper.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354760801234944
+    m_Localized: Yes!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354965554573312
+    m_Localized: Now that the sample has been inserted and measurements prepared,
+      we can let the hammer drop down.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355241971789824
+    m_Localized: To do that, we simply detach the hammer from the tugging arm that
+      is currently holding it up.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355380094414848
+    m_Localized: That's it!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355436952399872
+    m_Localized: Now, there is two main types of information we can derive here.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355610651111424
+    m_Localized: First, the imact work the machine has measured as it hit the sample
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355731807776768
+    m_Localized: Secondly, we can look at the broken sample to determine its relative
+      brittleness
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356048150573056
+    m_Localized: TODO
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

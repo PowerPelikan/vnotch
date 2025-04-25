@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Tutorial0_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: bb279b56b34df9142a282acf29fa2826, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 9311989760
+    m_Localized: "Hello, and welcome to this demonstration.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 80954896384
+    m_Localized: Before we get started, let's go over some basic controls.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10966486593536
+    m_Localized: Look around using the [mouse] mouse.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23571565490176
+    m_Localized: Good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23592952246272
+    m_Localized: You can walk using [move keys].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23632819105792
+    m_Localized: Good
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23837471780864
+    m_Localized: To interact with highlighted objects, click and hold [left mouse
+      button].
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23891687354368
+    m_Localized: Try picking up these tongs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32706453417984
+    m_Localized: Great!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32769435086848
+    m_Localized: "\rTo switch between your equipment slots, use [mouse wheel]. Equip
+      the tongs."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32895385841664
+    m_Localized: Alright!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33034720620544
+    m_Localized: Using the tongs, you can pick up material samples. Remember, use
+      [left mouse button] to interact with objects.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33428104392704
+    m_Localized: Great. If you're unsure about which button to press, there are input
+      hints displayed at the *bottom left corner of your screen*. (this is still
+      TODO)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100415807533056
+    m_Localized: Alright!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100543591198720
+    m_Localized: Before we can begin the impact test proper, we have a little prep
+      work to do.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100570543796224
+    m_Localized: As you can see on your *clipboard*, we need to place two of the
+      samples in the *oven* and two others in the *bucket* to test them at different
+      temperatures later.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100610532290560
+    m_Localized: Once you have done that, we can begin.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101271516852224
+    m_Localized: Fantastic! Now, we can begin testing for impact work
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102883274633216
+    m_Localized: Try to enter focus mode using [right mouse button]
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167056092278784
+    m_Localized: For this early version, you will find the samples already prepared
+      on the table.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168526858530816
+    m_Localized: You can pick them up and insert them into the machine. Try it!
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
